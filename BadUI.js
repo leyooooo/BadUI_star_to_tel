@@ -32,7 +32,7 @@ export default () => {
         const order = ['0', ...orderNoZero];
 
         return (
-          <div>
+          <div key={i}>
             <Rate
               count={9}
               value={order.indexOf(n)}
